@@ -1,0 +1,16 @@
+
+****** xsim v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/shared_stress/xsim_script.tcl
+# xsim {shared_stress} -autoloadwcfg -runall
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+run -all
+PREDICTOR_EQUIVALENCE_PASS cycles=100000
+$finish called at time : 1000040 ns : File "C:/Users/Lenovo/Documents/Codex/2026-11-03/referenced-chatgpt-conversation-this-is-an/work/predictor_check/predictor_stress_tb.sv" Line 35
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 223.477 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Nov  3 12:18:05 2026...

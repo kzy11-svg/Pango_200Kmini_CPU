@@ -1,0 +1,57 @@
+
+****** xsim v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/shared_logic_coremark/xsim_script.tcl
+# xsim {shared_logic_coremark} -autoloadwcfg -runall
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+run -all
+Official CoreMark 1.01 - RV32IM+Zicsr+Zbc pure software
+
+CRC hardware acceleration: disabled
+
+Matrix hardware acceleration: disabled
+
+CSR_WINDOW cycles=374679 CM_per_MHz=8.006854
+MEASURE cycles=374710 CM_per_MHz=8.006191
+2K performance run parameters for coremark.
+
+CoreMark Size    : 666
+
+Total ticks      : 3123
+
+Total time (secs): 0.003123
+
+Iterations/Sec   : 960.614793
+
+ERROR! Must execute for at least 10 secs for a valid result!
+
+Iterations       : 3
+
+Compiler version : GCC 16.1.0
+
+Compiler flags   : -march=rv32im_zicsr_zbb_zbc -mabi=ilp32 -O3 -mtune=sifive-7-series -funroll-loops --param=max-inline-insns-auto=200 --param=max-inline-insns-single=600 --param=inline-unit-growth=100 -funroll-all-loops -g -ffreestanding -fno-builtin -fno-common -fno-pic -msmall-data-limit=0 -DITERATIONS=18000 -DPERF_DIAG=0 -fdisable-tree-phiopt1 -fdisable-tree-phiopt2 -fdisable-tree-phiopt3 -fdisable-tree-phiopt4
+
+Memory location  : IROM code, DRAM data and stack
+
+seedcrc          : 0xe9f5
+
+[0]crclist       : 0xe714
+
+[0]crcmatrix     : 0x1fd7
+
+[0]crcstate      : 0x8e3a
+
+[0]crcfinal      : 0x2e87
+
+Errors detected
+
+IPC PURE_SMOKE_PASS: baseline short-run CRCs match; not formal CoreMark score
+MUL_ADDRESS_POLICY deferrals=0 same_edge_published_a=0 original_store_b=108
+$finish called at time : 4224595833 ps : File "C:/Users/Lenovo/Documents/Codex/2026-11-03/referenced-chatgpt-conversation-this-is-an/work/simulation_shared_logic/pure_coremark_tb.sv" Line 40
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:05:02 . Memory (MB): peak = 223.562 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Nov  3 12:24:10 2026...
